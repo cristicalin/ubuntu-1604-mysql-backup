@@ -3,7 +3,7 @@
 export LC_ALL=C
 
 days_to_keep=30
-backup_owner="backup"
+backup_owner="root"
 parent_dir="/backups/mysql"
 defaults_file="/etc/mysql/backup.cnf"
 working_dir="${parent_dir}/working"

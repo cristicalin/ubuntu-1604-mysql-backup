@@ -7,7 +7,7 @@ incremental_dirs=( ./incremental-*/ )
 full_dirs=( ./full-*/ )
 shopt -u nullglob
 
-backup_owner="backup"
+backup_owner="root"
 log_file="prepare-progress.log"
 full_backup_dir="${full_dirs[0]}"
 

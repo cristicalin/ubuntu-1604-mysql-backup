@@ -2,7 +2,7 @@
 
 export LC_ALL=C
 
-backup_owner="backup"
+backup_owner="root"
 storage_configuration_file="/backups/mysql/object_storage_config.sh"
 day_to_download="${1}"
 
